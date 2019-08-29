@@ -653,11 +653,9 @@ int main(){
 	{
 		//processDatabase(conf);
 		eyeUtil.processMainDatabase(conf);
-
 	}
 	//runCompareTest(conf);
 	eyeUtil.simulateAccesRequest(conf, startProcessing);
 	eyeUtil.runForHistograFalseCompare(conf);
-
 	return 0;
 }
